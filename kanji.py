@@ -12,15 +12,22 @@ radicals = {
     "二": "two", "亠": "lid", "大": "big", "人": "person", "入": "enter",
     # 18 Mar : 5 Radicals
     '力': 'power', '勹': 'prison', '口': 'mouth', '女': ['woman', 'women'], '七': 'seven',
+    # 19 Mar : 10 Radicals
+    '十': 'cross', '山': 'mountain', '川': 'river', '木': 'tree', '工': 'construction',
+    '九': 'nine', '𠂉': 'gun', '日': 'sun', 'ト':'toe', '丨':'stick',
 }
 
 kanji_to_meaning = {
-    # 17 Mar
+    # 17 Mar : 12 Kanji
     '人': ['person', 'people'], '太': 'fat', '大': 'big', '六': 'six', '一': 'one',
     '二': 'two', '三': 'three', '了': 'finish', '久': 'long time', '入': 'enter',
     '才': 'talent', '八': 'eight',
-    # 18 Mar
+    # 18 Mar : 5 Kanji
     '力': 'power', '口': 'mouth', '人口': 'population', '女': 'woman', '七': 'seven',
+    # 19 Mar : 12 Kanji 
+    '十': 'ten', '山': 'mountain', '出': 'exit', '川': 'river', '木': 'tree', 
+    '工': 'construction', '九': 'nine', '丸': 'circle', '日': 'sun', '上':'above', 
+    '下':'below', '困': ['distressed', 'troubled', 'annoyed'],
 }
 
 kanji_to_hiragana = {
@@ -30,6 +37,10 @@ kanji_to_hiragana = {
     '才': ['さい', 'sai'], '八': ['はち', 'hachi'],
     # 18 Mar : 5 Kanji
     '力': ['ちから', 'りょく', 'りき', 'chikara', 'ryoku', 'riki'], '口': ['こう', 'く', 'くち', 'ku', 'kuchi', 'kou'], '人口': ['じんこう', 'jin'], '女': ['じょ', 'おんな', 'onna', 'jyou'], '七': ['なな', 'しち', 'nana', 'shichi'],
+    # 19 Mar : 12 Kanji
+    '十': ['じゅう', 'jyuu'], '山': ['さん','san'], '出': ['しゅつ', 'shutsu'], '川': ['かわ', 'kawa'], '木': ['もく', 'moku'], 
+    '工': ['こう', 'kou'], '九': 'きゅう', '丸': 'まる', '日': ['にち', 'じつ', 'nichi', 'jitsu', 'ひ', 'hi'],  '上': ['じょう','jyou'], 
+    '下':['ka', 'か'], '困':['こん', 'kon'],
 }
 
 false_answer = 0
