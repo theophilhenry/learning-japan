@@ -2,6 +2,8 @@ import os
 import random
 import time
 
+clear = lambda: os.system('cls' if os.name == 'nt' else 'clear')
+
 radicals = {
   # 17 Mar : 10 Radicals
   "一": "ground", "亅": "barb", "ハ": "fins", "丶": "drop", "丿": "slide",
@@ -34,7 +36,7 @@ correct_answer = 0
 
 items = {}
 
-os.system('clear')
+clear()
   
 while items == {}:
   print("Type of quiz")
@@ -50,7 +52,7 @@ while items == {}:
 
 
 while True:
-  os.system('clear')
+  clear()
 
   if items == {}:
     print('Finished! 🎉')
@@ -64,7 +66,7 @@ while True:
     print(false_answer_list)
     print('')
     input('Press Enter to exit...')
-    os.system('clear')
+    clear()
     break
   
   print("===", quiz_type.capitalize(), "===")
