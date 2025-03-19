@@ -25,11 +25,11 @@ kanji_to_meaning = {
 
 kanji_to_hiragana = {
     # 17 Mar : 12 Kanji
-    '人': ['じん', 'にん', 'ひと'], '太': 'たい', '大': ['だい', 'たい'], '六': 'ろく', '一': 'いち',
-    '二': 'に', '三': 'さん', '了': 'りょう', '久': ['きゅう', 'く', 'ひさ'], '入': 'にゅう',
-    '才': 'さい', '八': 'はち',
+    '人': ['じん', 'にん', 'ひと', 'nin', 'jin', 'hito'], '太': ['たい', 'tai'], '大': ['だい', 'たい', 'tai', 'dai'], '大きい': ['おおきい','ookii'], '六': ['ろく', 'roku'], '一': ['いち', 'ichi'],
+    '二': ['に', 'ni'], '三': ['さん', 'san'], '了': ['りょう', 'ryou'], '久': ['きゅう', 'く', 'ひさ', 'kyuu', 'ku', 'hisa'], '入': ['にゅう', 'nyuu'],
+    '才': ['さい', 'sai'], '八': ['はち', 'hachi'],
     # 18 Mar : 5 Kanji
-    '力': ['ちから', 'りょく', 'りき'], '口': ['こう', 'く', 'くち'], '人口': ['じんこう'], '女': ['じょ', 'おんな'], '七': ['なな', 'しち'],
+    '力': ['ちから', 'りょく', 'りき', 'chikara', 'ryoku', 'riki'], '口': ['こう', 'く', 'くち', 'ku', 'kuchi', 'kou'], '人口': ['じんこう', 'jin'], '女': ['じょ', 'おんな', 'onna', 'jyou'], '七': ['なな', 'しち', 'nana', 'shichi'],
 }
 
 false_answer = 0
@@ -44,7 +44,7 @@ while items == {}:
     print("Type of quiz")
     print("[1] Radicals")
     print("[2] Kanji to English")
-    print("[3] Kanji To Hiragana")
+    print("[3] Kanji To Hiragana (Or Romanization)")
     print("")
     quiz_type = input('')
     if quiz_type == '1':
